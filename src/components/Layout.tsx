@@ -1,4 +1,3 @@
-
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -24,7 +23,7 @@ const Layout = ({ children }: { children: React.ReactNode }) => {
               <div className="flex items-center justify-center rounded-md bg-primary/10 p-1">
                 <BarChart4 className="h-6 w-6 text-primary" />
               </div>
-              <span className="font-bold text-xl">Digital Citizen Pulse</span>
+              <span className="font-bold text-xl">Дарья Лебедева - задание от ТД</span>
             </Link>
           </div>
           <nav className="hidden md:flex space-x-4">

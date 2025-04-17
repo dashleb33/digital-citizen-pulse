@@ -1,4 +1,3 @@
-
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import { Button } from "@/components/ui/button";
@@ -46,7 +45,7 @@ const Index = () => {
           <div className="flex flex-col items-center text-center space-y-6">
             <div className={`space-y-4 max-w-3xl ${isVisible ? 'animate-fade-in' : 'opacity-0'}`}>
               <h1 className="text-3xl md:text-5xl font-bold gradient-text">
-                Изучение доверия к искусственному интеллекту и современным технологиям
+                Дарья Лебедева - задание от ТД
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground">
                 Комплексное исследование уровня доверия граждан и бизнеса к технологиям ИИ и другим цифровым инновациям
